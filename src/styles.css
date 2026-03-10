@@ -1,0 +1,15 @@
+/* font-family: "Playfair Display", serif;\
+font-family: "Poppins", sans-serif;
+main color f9f7fe
+buttons color 6c63ff*/
+:root {
+  --primary-color: #f9f7fe;
+  --secondary-color: #6c63ff;
+}
+
+header {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  color: var(--secondary-color);
+}
