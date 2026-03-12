@@ -60,6 +60,7 @@ header {
 }
 .btn-branding-border {
   display: block;
+  margin: 0 auto;
   color: var(--secondary-color);
   border: 2px solid var(--secondary-color);
   border-radius: 4px;
