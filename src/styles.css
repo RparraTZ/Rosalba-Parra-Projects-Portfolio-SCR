@@ -24,7 +24,9 @@ h1 {
 header {
   background-color: var(--primary-color);
 }
-
+footer a {
+  border-radius: 50%;
+}
 .navbar .navbar-nav .nav-link {
   color: var(--secondary-color);
 }
@@ -99,6 +101,8 @@ header {
   background-color: var(--primary-color);
   margin: 15px;
   padding: 15px;
+  font-size: 18px;
+  color: var(--secondary-color);
 }
 @media (max-width: 600px) {
   .hero {
