@@ -86,6 +86,10 @@ header {
   background-color: var(--primary-color);
   border-radius: 20px;
 }
+.work-inq-container h3 {
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+
 .inquiry-btn {
   display: block;
   margin: 0 auto;
