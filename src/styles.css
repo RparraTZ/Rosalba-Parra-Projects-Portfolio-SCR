@@ -78,6 +78,9 @@ header {
   background-color: var(--secondary-color);
   border: 2px solid var(--secondary-color);
 }
+.projects-title {
+  font-size: clamp(2rem, 5vw, 3rem);
+}
 
 .work-inq-container {
   background-color: var(--primary-color);
