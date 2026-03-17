@@ -19,7 +19,7 @@ h6 {
 h1 {
   font-size: 96px;
   font-weight: 700;
-  font-size: clamp(2rem, 5vw, 5rem);
+  font-size: clamp(3rem, 5vw, 5rem);
 }
 header {
   background-color: var(--primary-color);
@@ -113,7 +113,7 @@ footer .socials-link {
     padding-inline: 10px;
   }
   .hero p {
-    font-size: 18px;
+    font-size: 24px;
   }
   .hero h2 {
     font-size: 15px;
