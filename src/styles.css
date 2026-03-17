@@ -27,11 +27,15 @@ header {
 footer a {
   border-radius: 50%;
 }
-.navbar .navbar-nav .nav-link {
+.navbar .navbar-nav .nav-link:hover {
   color: var(--secondary-color);
 }
-.navbar .navbar-brand {
-  color: var(--secondary-color);
+.shecodes-logo {
+  max-width: 150px;
+}
+.navbar-nav .nav-link.active {
+  color: var(--secondary-color) !important;
+  font-weight: bold;
 }
 .hero {
   background-color: var(--primary-color);
@@ -78,9 +82,6 @@ footer a {
   border: 2px solid var(--secondary-color);
 }
 
-.intro-text {
-  margin-top: 60px;
-}
 .work-inq-container {
   background-color: var(--primary-color);
   border-radius: 20px;
@@ -97,13 +98,18 @@ footer a {
   padding: 15px 0;
   max-width: 200px;
 }
-.icon {
-  background-color: var(--primary-color);
-  margin: 15px;
-  padding: 15px;
-  font-size: 18px;
-  color: var(--secondary-color);
+.footer-email {
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
 }
+footer .socials-link {
+  font-size: 20px;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding: 10px 13px;
+}
+
 @media (max-width: 600px) {
   .hero {
     padding-inline: 10px;
