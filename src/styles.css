@@ -114,6 +114,7 @@ main h1 {
 }
 .work-inq-container h3 {
   font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
 }
 
 .inquiry-btn {
@@ -144,11 +145,36 @@ main h1 {
   font-size: 24px;
   font-weight: bold;
 }
-.project-images img {
+.project-image {
   border-radius: 15px;
-  margin-inline: 100px;
 }
-
+.contact-page-hero {
+  margin: 50px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.contact-socials-icons {
+  font-size: 30px;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding: 10px 13px;
+  border-radius: 50%;
+}
+.social-links-container p {
+  margin-top: 8px;
+}
+.social-links-container p a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.developer-credit {
+  font-size: 12px;
+}
+.developer-credit-link {
+  text-decoration: none;
+  font-size: 12px;
+  color: var(--secondary-color);
+}
 @media (max-width: 600px) {
   .hero {
     padding-inline: 10px;
