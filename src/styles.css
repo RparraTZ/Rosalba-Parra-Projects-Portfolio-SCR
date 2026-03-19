@@ -188,4 +188,7 @@ main h1 {
   .aboutme-container {
     margin: 5px;
   }
+  h1 {
+    font-size: 40px;
+  }
 }
