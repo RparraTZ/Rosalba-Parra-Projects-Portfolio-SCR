@@ -3,59 +3,179 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio | Rosalba Parra</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="canonical" href="https://your-website-url.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/d355a6d197.js"
       crossorigin="anonymous"
     ></script>
+    <title>Patricia Pereira | Information about me</title>
+    <meta
+      name="description"
+      content="Learn more about Patricia Pereira, a Front-end Developer based in Portugal. Discover her journey in web development and her expertise in HTML, CSS, and Bootstrap."
+    />
     <link rel="stylesheet" href="src/styles.css" />
   </head>
-  <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand fw-bold" href="index.html">SheCodes</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse me-2" id="navbarNavAltMarkup">
-          <div class="navbar-nav ms-auto">
-            <a
-              class="nav-link active me-3"
-              aria-current="page"
-              href="index.html"
-              >Home</a
-            >
-            <a class="nav-link me-3" href="about.html">About</a>
-            <a class="nav-link me-3" href="work.html">Work</a>
-            <a class="nav-link me-5" href="contact.html">Contact</a>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold" href="index.html">
+            <img
+              src="images/shecodes-logo-compressed.webp"
+              class="shecodes-logo"
+              alt="shecodes logo"
+              loading="lazy"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-socials-link"></span>
+          </button>
+          <div class="collapse navbar-collapse me-2" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link me-3" href="index.html" alt="Go to Homescreen"
+                >Home</a
+              >
+              <a
+                class="nav-link active me-3"
+                aria-current="page"
+                href="about.html"
+                title="Go to About-me Page"
+                >About</a
+              >
+              <a
+                class="nav-link me-3"
+                href="work.html"
+                title="View some of the projects I've worked on"
+                >Work</a
+              >
+              <a
+                class="nav-link me-5"
+                href="contact.html"
+                title="View Patricia peralta contact information page"
+                >Contact</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="m-5">
+      <div class="aboutme-container">
+        <div class="container patricia-info-cont">
+          <div class="row">
+            <div class="col-sm-6">
+              <h1 class="mb-4 text-center text-md-start">
+                Hi, I am Patricia Pereira
+              </h1>
+              <h2 class="mb-4 text-center text-md-start">
+                Front-end Developer, based in Portugal.
+              </h2>
+              <p class="lh-lg text-muted text-center text-md-start">
+                For anyone who wants to start learning code, this workshop is
+                very interesting. You will be challenged with different
+                exercises, and everything is well explained, homework and
+                deadlines are good for keep focus.
+              </p>
+              <a
+                class="btn-branding shadow-sm"
+                href="about.html"
+                title="View Patricia's Previous Projects"
+                >View All Projects</a
+              >
+            </div>
+            <div class="col-sm-6">
+              <img
+                src="images/Patricia-compressed.webp"
+                class="img-fluid shadow-sm d-md-block"
+                alt="Picture of Patricia Pereira smiling"
+                loading="lazy"
+              />
+            </div>
           </div>
         </div>
       </div>
-    </nav>
-  </header>
-  <body>
-    <h1 class="text-center">This is the About me page</h1>
-    <i class="fa-brands fa-instagram"></i>
+    </main>
+    <section class="work-inq-container shadow-sm">
+      <div class="container p-5">
+        <div class="row">
+          <div class="col-sm-6">
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">
+              Let's work together and I'll help you by all my best
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <a
+              class="shadow-sm inquiry-btn"
+              href="contact.html"
+              title="Contact information for Patricia Pereira"
+              >Let's talk here</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="text-center m-4">
+      <div class="mb-5">
+        <a
+          href="mailto:patrapa@shecode.com"
+          class="footer-email"
+          title="Email Patricia Pereira"
+          >patrapa@shecodes.com</a
+        >
+      </div>
+      <div class="d-flex justify-content-center gap-4 m-5">
+        <a
+          href="https://github.com/"
+          class="socials-link"
+          target="_blank"
+          title="View Patricia Pereira projects on Github"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/"
+          class="socials-link"
+          target="_blank"
+          title="View Patricia Pereira on Instagram"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://x.com/"
+          class="socials-link"
+          target="_blank"
+          title="View Patricia Pereira on X"
+          ><i class="fa-solid fa-x"></i
+        ></a>
+      </div>
+      <div class="text-center text-muted">
+        This project was was coded by Rosalba Parra and it's
+        <a
+          href="https://github.com/RparraTZ/Rosalba-Parra-Projects-Portfolio-SCR"
+          title="View this project code on Github"
+          >open-sourced.</a
+        >
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
